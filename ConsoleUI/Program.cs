@@ -14,7 +14,7 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfMemoryCarDal());//Burda ise sadece parantez içindeki değere bakar db bağımlılığından kurtarır.
             foreach (var cars in carManager.GetAll())
             {
-                Console.WriteLine(cars.Description);
+                Console.WriteLine(cars.Description); 
             }
         }
     }
